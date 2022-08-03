@@ -124,7 +124,7 @@ yarn workspaces run build
 ## Run:
 
 ```shell
-yarn api prisma migrate deploy
+yarn server prisma migrate deploy
 cd api && node dist/index.js
 ```
 
@@ -140,7 +140,7 @@ git pull origin main             # or, staging for the latest updates
 yarn install                     # install
 yarn workspaces run build        # build
 
-yarn api prisma migrate deploy
+yarn server prisma migrate deploy
 cd api && node dist/index.js  # run
 ```
 
